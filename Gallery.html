@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps Gallery</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="img-logo"><img src="image/kisspng-world-map-globe-united-states-globe-5ad2b66d992db0.3560859615237587016274 (1).png" alt=""></div>
+        <button class="drop"  onclick="show()"><i class="fa-solid fa-bars"></i></button>
+        <ul id="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="webMaps.html">Web Maps</a></li>
+            <li><a class="active" href="Gallery.html" >Maps Gallery</a></li>
+            <li><a href="tool.html">Tools</a></li>
+            <li><a href="Team.html">Team</a></li>
+        </ul>
+        </header>
+        <div class="landing">
+            <div class="btn-group" id="list2">
+                <button class="tablinks" onclick="openCity(event, 'fina')">الادارية</button>     
+                <button class="tablinks" onclick="openCity(event, 'Cairo')">السياحية</button>     
+                <button class="tablinks" onclick="openCity(event, 'London')">الزراعية</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">الجوفية</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">السطح</button>
+                <button class="tablinks" onclick="openCity(event, 'doha')">السكان</button>
+                <button class="tablinks" onclick="openCity(event, 'GERMAN')">الخدمات</button>
+                <button class="tablinks" onclick="openCity(event, 'deutschland')">المناخ</button>
+            </div>
+            <div class="container">
+                <div class="text-gal">
+                    <p>هنا معرض الخرائط الخاص بنا كل ما عليك هو الضغط علي نوع الخرائط التي تود مشاهدتها</p>
+                </div>
+                <div id="doha" class="hiden">
+                    <h3 class="second-title">السكان</h3>
+                    <div class="gallery_pics_holder">
+                        <div class="gallery_pics">
+                            <img src="image/السكان/خريطة الكثافة السكانية.png" alt="">
+                        </div>
+                        <div class="gallery_pics">
+                            <img src="image/السكان/الفئات العمرية لمحافظة سوهاج.png" alt="">
+                        </div>
+                        <div class="gallery_pics">
+                            <img src="image/السكان/خريطة الحالة الاجتماعية.png" alt="">
+                        </div>
+                        <div class="gallery_pics">
+                            <img src="image/السكان/الهجرة الداخلية لسوهاج.png" alt="">
+                        </div>
+                        <div class="gallery_pics">
+                            <img src="image/السكان/الهجرة الداخلية من سوهاج.png" alt="">
+                        </div>
+                        <div class="gallery_pics">
+                            <img src="image/السكان/IMG-20220616-WA0002.jpg" alt="">
+                        </div>
+                        <div class="gallery_pics">
+                            <img src="image/السكان/IMG-20220616-WA0003.jpg" alt="">
+                        </div>
+                        <div class="gallery_pics">
+                            <img src="image/السكان/IMG-20220616-WA0004.jpg" alt="">
+                        </div>
+                    </div>  
+                </div>  
+            <div id="fina" class="hiden">
+                <h3 class="second-title">خرائط التقسيم الاداري</h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز اخميم.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز البلينا.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز العسيرات.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز المراغة.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز المنشاة.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز جرجا.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز جهينة.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز دار السلام.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز ساقلتة.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز سوهاج.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز طما.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/تقسيم اداري/التقسيم الاداري لمركز طهطا.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="deutschland" class="hiden">
+            <h3 class="second-title">المناخ</h3>
+            <div class="gallery_pics_holder">
+                <div class="gallery_pics">
+                    <img src="image/المناخ/الاشعاع الشمسي.png" alt="">
+                </div>
+                <div class="gallery_pics">
+                    <img src="image/المناخ/التساقط.png" alt="">
+                </div>
+                <div class="gallery_pics">
+                    <img src="image/المناخ/الحرارة.png" alt="">
+                </div>
+                <div class="gallery_pics">
+                    <img src="image/المناخ/الرطوبة.png" alt="">
+                </div>
+                <div class="gallery_pics">
+                    <img src="image/المناخ/الضغط.png" alt="">
+                </div>
+            </div>
+            </div>
+                <div id="Cairo" class="hiden">
+                    <h3 class="second-title">الخرائط السياحية</h3>
+                    <div class="gallery_pics_holder">
+                        <div class="gallery_pics">
+                            <img src="image/الخرائط السياحية/WhatsApp Image 2022-04-21 at 9.42.54 PM.jpeg" alt="">
+                        </div>
+                        <div class="gallery_pics">
+                            <img src="image/الخرائط السياحية/المسار.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="Tokyo" class="hiden">
+                    <h3 class="second-title">خرائط السطح </h3>
+                    <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/السطح/خريطة التضاريس.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/السطح/خريطة الإنحدرات.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/السطح/خريطة المنحنيات.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/السطح/خريطة المنحيات (القطاع.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/السطح/خريطة الميول.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/السطح/خريطة مستوى الرؤية.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/السطح/كنتورية.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/السطح/خريطة الظلال.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/السطح/خريطة تصنيف التربة.png" alt="">
+                    </div>
+                    </div>
+                    <h3 class="second-title"> التحليل الهيدرولوجي </h3>
+                    <div class="gallery_pics_holder">
+                        <div class="gallery_pics">
+                            <img src="image/السطح/IMG-20220619-WA0015.jpg" alt="">
+                        </div>
+                    </div>
+                    <h3 class="second-title"> NDVI  </h3>
+                    <div class="gallery_pics_holder">
+                        <div class="gallery_pics">
+                            <img src="image/السطح/خريطة الغطاء النباتي.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            <div id="London" class="hiden">
+                <h3 class="second-title">الخرائط الزراعية</h3>
+                <div class="gallery_pics_holder">
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/الزمام.png" alt="">
+                </div>
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/IMG-20220325-WA0006.jpg"  alt="">
+                </div>
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/الاستصلاح.png"  alt="">
+                </div>
+                
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/الشتوية.png"  alt="">
+                </div>
+                
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/الصيفية.png"  alt="">
+                </div>
+                
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/الفاكهة.png"  alt="">
+                </div>
+                
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/صوب الشتلات.png"  alt="">
+                </div>
+                
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/تطور المساحة.png"  alt="">
+                </div>
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/المساحة.png"  alt="">
+                </div>
+                
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/الصوب.png"  alt="">
+                </div>
+                </div>
+                <h3 class="second-title">الجدارة الانتاجية   </h3>
+                <div class="gallery_pics_holder">
+                <div class="gallery_pics">
+                    <img src="image/الزراعية/متوسط الجدارة الإنتاجية.png" alt="">
+                </div>
+                </div>
+            </div>
+            <div id="Paris" class="hiden">
+                <h3 class="second-title"> الجوفية  </h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0008.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0026.jpg"  alt="">
+                    </div>
+                </div>
+                <h3 class="second-title"> الملائمة  </h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/New folder/الملامة/IMG-20220614-WA0005.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/الملامة/IMG-20220614-WA0006.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/الملامة/IMG-20220614-WA0007.jpg"  alt="">
+                    </div>
+                </div> 
+                <h3 class="second-title"> تركز العناصر الكميائية  </h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0009.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0013.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0017.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0018.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0021.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0020.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0023.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0024.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/تركز المعادن/IMG-20220614-WA0025.jpg"  alt="">
+                    </div>
+                </div>
+                <h3 class="second-title"> تركز المعادن الثقيلة  </h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/New folder/المعادن الثقيلة/IMG-20220614-WA0010.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/المعادن الثقيلة/IMG-20220614-WA0014.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/المعادن الثقيلة/IMG-20220614-WA0015.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/المعادن الثقيلة/IMG-20220614-WA0016.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/المعادن الثقيلة/IMG-20220614-WA0019.jpg"  alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/New folder/المعادن الثقيلة/IMG-20220614-WA0022.jpg"  alt="">
+                    </div>
+                </div> 
+            </div> 
+            <!-- ============== -->
+            <div id="GERMAN" class="hiden">
+                <h3 class="second-title"> الخرائط التعليمية </h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/خدمات/التوزيع الجغرافي تعليم اساسي.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/خدمات/التوزيع الجغرافي تعليم الثانوي.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/خدمات/التعليم الخاص والمجتمعي.jpg" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/خدمات/الكثافة الطلابية تعليم اساسي.png" alt="">
+                    </div>
+                    <div class="gallery_pics">
+                        <img src="image/خدمات/الكثافة الطلابية تعليم الثانوي.png" alt="">
+                    </div>
+                </div>
+                <h3 class="second-title"> الخدمات الصحية  </h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/خدمات/الخدمات الصحية.png" alt="">
+                    </div>
+                </div>   
+                <h3 class="second-title"> الخدمات المصرفية  </h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/خدمات/الخدمات المصرفية.png" alt="">
+                    </div>
+                </div> 
+                <h3 class="second-title"> الكهرباء  </h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/خدمات/شبكة الكهرباء.png" alt="">
+                    </div>
+                </div> 
+                <h3 class="second-title"> شبكة النقل  </h3>
+                <div class="gallery_pics_holder">
+                    <div class="gallery_pics">
+                        <img src="image/خدمات/IMG-20220619-WA0014.jpg" alt="">
+                    </div>
+                </div>
+            </div> 
+            </div>    
+        </div>
+    <footer>
+        <div class="container">
+            <div class="box">
+            <a href="#" class="atl"><i class="fa-solid fa-book-atlas"></i></a>
+            <ul class="social">
+                <li>
+                <a href="#" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                </li>
+                <li>
+                <a href="#" class="linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                </li>
+                <li>
+                <a href="#" class="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                </li>
+            </ul>
+            <p class="text">
+                اطلس محافظة سوهاج تم اعداده من طرف طلاب شعبة نظم المعلومات الجغرافية ضمن متطلبات مشروع التخرج
+              </p>
+            </div>
+            <div class="box">
+              <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Team.html">Team</a></li>
+                <li><a href="tool.html">Tools</a></li>
+              </ul>
+            </div>
+            <div class="box">
+              <div class="line">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="info">sohaguniversity@gmail.com</div>
+              </div>
+              <div class="line">
+                <i class="fa-solid fa-phone"></i>
+                <div class="info">
+                  01802240348
+                </div>
+              </div>
+              <div class="line">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="info">Egypt, Sohag University</div>
+              </div>
+            </div>
+          </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

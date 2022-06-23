@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Arc Gis Api -->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.23/esri/themes/light/main.css">        <script src="https://js.arcgis.com/4.23/"></script>
+    <!-- Arc Gis Api -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projrct</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normalize.css">            
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header>
+      <h2><a href="#" class="logo">atlas</a></h2>
+      <button class="drop"  onclick="show()"><i class="fa-solid fa-bars"></i></button>
+      <ul id="list">
+          <li><a href="index.html" >Home</a></li>
+          <li><a class="active" href="webMaps.html" >Web Maps</a></li>
+          <li><a href="Gallery.html" >Maps Gallery</a></li>
+          <li><a href="tool.html">Tools</a></li>
+          <li><a href="Team.html">Team</a></li>
+      </ul>
+    </header>
+  <div class="landing">
+      <div class="btn-group mapweb" id="list2">
+              <button id="btn1" onclick="openWep()"> الجيولوجية</button>
+              <button id="btn2" onclick="openWep2()">السياحية</button>
+              <button id="btn2" onclick="openWep3()">الصحية</button>
+              <button id="btn2" onclick="openWep4()">Hydrology</button>
+              <button id="btn1" onclick="openWep5()"> المصارف</button>
+              <button id="btn2" onclick="openWep6()">الكهرباء</button>
+      </div>
+    <div class="web">
+        <div class="container">
+          <div class="content" id="mySidenav">
+                <div class="closeWep">
+                  <button onclick="closeWep()"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div id="viewDiv"></div>
+                <div id="basemapGalleryDiv"></div>
+                <div id="ScaleBarDiv"></div>
+          </div>
+        </div>
+      </div>
+      <!-- 1 -->
+      <div class="web">
+        <div class="container">
+          <div class="content" id="mySidenav2">
+            <div class="closeWep">
+              <button onclick="closeWep2()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div id="viewDiv2"></div>
+          </div>
+        </div>
+      </div>
+  <!-- 2 -->
+  <div class="web">
+    <div class="container">
+      <div class="content" id="mySidenav3">
+        <div class="closeWep">
+          <button onclick="closeWep3()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="viewDiv3"></div>
+        <div id="basemapGalleryDiv2"></div>
+      </div>
+    </div>
+  </div>
+<!-- =================3================= -->
+<div class="web">
+  <div class="container">
+    <div class="content" id="mySidenav4">
+      <div class="closeWep">
+        <button onclick="closeWep4()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div id="viewDiv4"></div>
+      <div id="basemapGalleryDiv4"></div>
+    </div>
+  </div>
+</div>
+
+<div class="web">
+  <div class="container">
+    <div class="content" id="mySidenav5">
+      <div class="closeWep">
+        <button onclick="closeWep5()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div id="viewDiv5"></div>
+      <div id="basemapGalleryDiv5"></div>
+    </div>
+  </div>
+</div>
+
+<div class="web">
+  <div class="container">
+    <div class="content" id="mySidenav6">
+      <div class="closeWep">
+        <button onclick="closeWep6()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div id="viewDiv6"></div>
+      <div id="basemapGalleryDiv6"></div>
+    </div>
+  </div>
+</div>
+  <div class="web">
+    <div class="container">
+      <div class="content" id="mySidenav7">
+        <div class="closeWep">
+          <button onclick="closeWep7()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="viewDiv7"></div>
+        <div id="basemapGalleryDiv7"></div>
+      </div>
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="container">
+      <div class="box">
+      <a href="#" class="atl"><i class="fa-solid fa-book-atlas"></i></a>
+      <ul class="social">
+          <li>
+          <a href="#" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+          </a>
+          </li>
+          <li>
+          <a href="#" class="linkedin">
+              <i class="fa-brands fa-linkedin"></i>
+          </a>
+          </li>
+          <li>
+          <a href="#" class="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          </li>
+      </ul>
+      <p class="text">
+          اطلس محافظة سوهاج تم اعداده من طرف طلاب شعبة نظم المعلومات الجغرافية ضمن متطلبات مشروع التخرج
+        </p>
+      </div>
+      <div class="box">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Team.html">Team</a></li>
+          <li><a href="tool.html">Tools</a></li>
+        </ul>
+      </div>
+      <div class="box">
+        <div class="line">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="info">sohaguniversity@gmail.com</div>
+        </div>
+        <div class="line">
+          <i class="fa-solid fa-phone"></i>
+          <div class="info">
+            01802240348
+          </div>
+        </div>
+        <div class="line">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="info">Egypt, Sohag University</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
